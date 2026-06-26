@@ -1,1 +1,146 @@
-/* Add you CSS here */
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7fa;
+    color: #4532b4;
+    line-height: 1.6;
+}
+
+/* Navigation */
+
+.navbar {
+    background: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+.logo {
+    color: #4532b4;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #4532b4;
+}
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Button */
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background: #4532b4;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background: #342685;
+}
+
+/* Sections */
+
+.section {
+    width: 90%;
+    max-width: 1000px;
+    margin: 70px auto;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #4532b4;
+}
+
+/* Skills */
+
+.skills {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+/* Projects */
+
+.projects {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+/* Contact */
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: white;
+    margin-top: 60px;
+    box-shadow: 0 -2px 8px rgba(0,0,0,.08);
+}
